@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NetWork\NetWorkManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Event\PSEventController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PopupWidget\Popup_playlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\dbManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mainPlayWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main_listWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main_navigation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\music_playwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\pagenavigator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\picturebutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\pictureitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\pictureview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\picturewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stackWidget\stack_findMusic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stackWidget\stack_foundMusic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stackWidget\stack_localMusic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stackWidget\stack_video.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Event\MusicSignals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stackWidget\stack_sheetMusic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Event\EventType_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="NetWork\NetWorkManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Event\PSEventController.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lib\PopupWidget\Popup_playlist.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Database\dbManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lib\mainPlayWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lib\main_listWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lib\main_navigation.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lib\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lib\music_playwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThirdParty\pagenavigator.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThirdParty\picturebutton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThirdParty\pictureitem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThirdParty\pictureview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ThirdParty\picturewidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lib\stackWidget\stack_findMusic.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lib\stackWidget\stack_foundMusic.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lib\stackWidget\stack_localMusic.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lib\stackWidget\stack_video.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="ui\picturewidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\picturewall\1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\picturewall\10.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\picturewall\2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\picturewall\3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\picturewall\4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\picturewall\5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\picturewall\6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\picturewall\7.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\picturewall\8.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\picturewall\9.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\listWidget\Personal_Recommendmusic1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\listWidget\Personal_Recommendmusic2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\listWidget\Personal_Recommendmusic3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\listWidget\Personal_Recommendmusic4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\listWidget\Personal_Recommendmusic5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\Play_picture.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\music_play\bofanggan.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stackWidget\localMusic\btn_add.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stackWidget\localMusic\btn_checked.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PopWidget\playlist\btn_close.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_close_h.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_close_n.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_cloth.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_cloth_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\listWidget\btn_cloudmusic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stackWidget\localMusic\btn_cloudmusic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PopWidget\playlist\btn_collectlist.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stackWidget\localMusic\btn_collectlist.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stackWidget\localMusic\btn_coppy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PopWidget\playlist\btn_delete.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stackWidget\localMusic\btn_delete.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stackWidget\localMusic\btn_deleteAll.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\listWidget\btn_download.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stackWidget\localMusic\btn_folder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_front.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stackWidget\localMusic\btn_indeterminate.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_listentomusic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\listWidget\btn_localmusic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_max_h.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_max_n.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_message.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_message_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_min_h.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_min_n.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_mini_h.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_mini_n.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\listWidget\btn_mycollect.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\listWidget\btn_mystation.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stackWidget\localMusic\btn_play.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stackWidget\localMusic\btn_playall.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stackWidget\localMusic\btn_playalladd.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stackWidget\localMusic\btn_playnext.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_search.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_set.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_set_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stackWidget\localMusic\btn_share.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_username.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\btn_vip.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\music_play\cd.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\effect.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\head.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\music_play\heijiaopian.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\stackWidget\localMusic\icon_search.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\label_bar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\last_music_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\last_music_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\Messageform\like.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="main_listWidget.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qss\main_playWidget.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qss\music_playWidget.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\muteButton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\muteButton_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\next_music_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\next_music_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\pause.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\Messageform\pic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\play.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\play_favor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\playlist.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\playlist_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\playmode_favor_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\playmode_favor_nor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\playmode_one.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\playmode_one_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\playmode_random.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\playmode_random_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\point_music.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qss\popqss\pop_playlist.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\quality_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="res.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="images\playWidget\songlyric.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\playWidget\songlyric_hover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qss\stackqss\stack_findmusic.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qss\stackqss\stack_foundmusic.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qss\stackqss\stack_localMusic.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qss\stackqss\stack_localMusicDialog.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qss\stackqss\stack_video.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="style.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\navigation\wyy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Event\MusicSignals.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="lib\stackWidget\stack_sheetMusic.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
