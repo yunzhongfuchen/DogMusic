@@ -6,13 +6,13 @@
 
 ## 运行界面
 
-![1](images\photo\1.png)
+![1](images/photo/1.png)
 
-![2](images\photo\2.png)
+![2](images/photo/2.png)
 
-![3](images\photo\3.png)
+![3](images/photo/3.png)
 
-![4](images\photo\4.png)
+![4](images/photo/4.png)
 
 ## 安装方法
 
